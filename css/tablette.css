@@ -1,0 +1,140 @@
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+
+    /* Header */
+
+    .menu{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .booki-logo{
+        object-fit: cover;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    /* Titre */
+    
+    .fa-magnifying-glass{
+        display: none;
+    }
+
+    #routule{
+        margin-left: -9px;
+    }
+
+    /* Filtre */
+
+    .filtre{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 8px;
+    } 
+
+    .btn-filtre{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .spe-filtre{
+        margin-top: 5px
+    }
+
+    /* Hebergement & Populaire combiné */
+    .conteneur-global{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Populaire */
+
+    .populaire .carte-populaire{
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .conteneur-vignettepop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .populaire{
+        width: auto;
+    }
+
+    .fa-chart-line{
+        left: 217px;
+        bottom: 44px;
+    }
+
+    /* Hebergement */
+
+    #hebergement{
+        margin-top: 25px;
+        margin-right: 0px;
+        width: auto;
+    }
+
+    /* Activité */
+    .conteneur-activite{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #activite{
+        padding: 20px;
+    }
+
+    .port{
+        margin-bottom: 15px;
+    }
+
+    .pomegues{
+        margin-bottom: 40px;
+    }
+
+    .ile{
+        margin-bottom: 40px;
+    }
+
+    .calanques{
+       margin-left: 0px;
+    }
+    .seconde-activite{
+        margin-right: 17px
+    }
+
+    .notre-dame{
+        margin-bottom: 40px;
+    }
+
+    /* Footer */
+
+    .aPropos{
+        margin-right: 15px;
+        margin-left: 30px;
+    }
+
+    .heberge{
+        margin-right: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

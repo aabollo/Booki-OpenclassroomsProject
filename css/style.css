@@ -1,0 +1,513 @@
+/* Général */
+
+*{
+    box-sizing: border-box;
+}
+
+.bloc-page{
+    margin-left: 56px;
+    margin-right: 56px;
+} 
+
+body {
+    font-family: 'Raleway', sans-serif;
+    
+}
+   
+main{
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.fa-star{
+    color: #0065fc;
+    font-size: 12px;
+}
+
+.star-grey{
+    color:#F2F2F2;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* Header */
+
+.booki-logo{
+    width: 95px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.entete{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.hbg{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.actv{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.hbg:hover, .actv:hover{
+    border-top: 2px #0065fc solid;
+    margin-bottom: -2px;
+}
+
+a:hover{
+    color:#0065FC;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Recherche */ 
+
+.recherche{
+    font-size: 15px;
+}
+
+#routule{
+    display:flex;
+    margin-top: 20px;
+}
+
+.bouton-localisation{
+    width: 50px;
+    height: 50px;
+    background-color:#F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius : 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5px;
+}
+
+.formulaire-rechercher{
+    width: 235px;
+    height:50px;
+    border-color : #F2F2F2;
+    padding: 10px;
+}
+
+.bouton-rechercher{
+    width: 135px;
+    height: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border : none;
+    background-color: #0065fc;
+    color: #ffffff;
+    position: relative;
+    right: 11px;
+}
+
+.bouton-loupe{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border : none;
+    background-color: #0065fc;
+    color: #ffffff;
+    position: relative;
+    right: 11px;
+   }
+
+.fa-magnifying-glass{
+    position: relative;
+    right: 45px;
+    top: 15px;
+    color: #ffffff;
+}
+
+/* Filtre */ 
+
+.filtre-gras{
+    font-weight: bold;
+}
+
+.btn-filtre{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sous-filtre p{
+    margin: 10px;
+}
+
+.filtre h2{
+    font-size: 20px;
+}
+
+.filtre{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sous-filtre{
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+}
+
+.filtre .sous-filtre{
+    display: flex;
+    align-items: center;
+    border-radius : 30px;
+    border : 2px solid #F2F2F2;
+}
+
+.filtre .sous-filtre i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEEBFF;
+    height: 50px;
+    width : 50px;
+    color : #0065fc;
+    border-radius : 100px;
+}
+
+.filtre .sous-filtre:hover{
+    background-color:rgb(202, 216, 228);
+}
+
+.paragraphe-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fa-info{
+    height: 25px; 
+    width: 25px;
+    min-height: 25px;
+    min-width: 25px;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #0065FC;
+    font-size: 14px;
+}
+/* Section Hébergement et Activité */
+
+#hebergement #activite{
+    padding: 15px ;
+}
+
+/* Hébergement */ 
+
+.lien-heberge{
+    margin-bottom: 25px;
+}
+
+.conteneur-global{
+    display: flex;
+    font-size: 15px;
+}
+
+.conteneur-vignettes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#hebergement{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    padding: 32px; 
+    width: 878px;
+    margin-right: 40px;
+}
+
+.carte-hebergement{
+    width: 245px;
+    height: 198px;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #0000002e;
+    font-size: 15px;
+}
+
+#hebergement img{
+    width: 232px;
+    height: 112px;
+	object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px ;
+    padding: 1px;
+}
+
+#hebergement h3{
+    margin: 4px 12px 4px 12px;
+    font-weight: bold;
+}
+
+#hebergement p{
+    margin: 4px 12px 4px 12px;
+}
+
+#hebergement .icone-hebergement{
+    margin: 0 12px 4px 12px;
+}
+
+.carte-hebergement:hover{
+    color:#0065fc;
+}
+
+/* Populaire */ 
+
+.fa-chart-line{
+    position: relative;
+    left: 320px;
+    bottom: 46px;
+    font-size: 23px;
+
+}
+
+.populaire{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    padding: 32px;
+    margin: auto;
+}
+
+.populaire .carte-populaire {
+    width: 343px;
+    height: 145px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.populaire .carte-populaire img {
+    width: 126px;
+    min-width: 127px;
+    height: 143px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 1px;
+}
+
+.populaire .carte-populaire .contenu-populaire {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.populaire .carte-populaire .contenu-populaire h3 {
+    margin-top: 0;
+}
+
+.carte-populaire:hover{
+    color:#0065fc;
+}
+
+
+/* Activité */ 
+
+.conteneur-activite{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteneur-activite h3{
+    margin: 10px;
+}
+
+.port{
+    width: 302px;
+    height: 444px;
+    border-radius:30px;
+    border: 2px solid #F2F2F2;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.port img{
+    width:301px;
+    height:388px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.premiere-activite{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pomegues{
+    width: 302px;
+    height: 236px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    margin-bottom: 45px;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.pomegues img{
+    width: 301px;
+    height: 180px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+.ile{
+    width :302px;
+    height: 164px;
+    border-radius:30px;
+    border: 2px solid #F2F2F2;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.ile img{
+    width:301px;
+    height:108px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+.calanques{
+    width: 302px;
+    height: 443px;
+    border-radius:30px;
+    border: 2px solid #F2F2F2;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.calanques img{
+    width: 301px;
+    height: 389px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+.seconde-activite{
+    margin-left: 10px;
+}
+
+.notre-dame{
+    width: 305px;
+    height: 194px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    margin-bottom: 45px;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.notre-dame img{
+    width: 301px;
+    height: 137px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+.parc{
+    width: 302px;
+    height: 208px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.parc img{
+    width: 301px;
+    height: 152px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+/* Footer */ 
+
+footer{
+    background-color: #F2F2F2;
+}
+
+.contenu-pied{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.pied{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 51px;
+}
+
+.info-footer{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.aPropos{
+    justify-content: space-evenly;
+    margin-right: 186px;
+    margin-left: 20px;
+}
+
+.heberge{
+    justify-content: space-evenly;
+    margin-right: 143px;
+    margin-bottom: 50px;
+}
+
+.assistance{
+    justify-content: space-evenly;
+    margin-left: 72px;
+    margin-bottom: 50px;
+}
+
+/* Media queries*/
+
+@media screen and (min-width: 992px)
+    {
+        .bouton-loupe{
+            display: none;
+        }
+        .fa-magnifying-glass{
+            display: none;
+        }
+
+    }
